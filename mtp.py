@@ -132,6 +132,5 @@ def read_cfg(file, symbols):
         energy_str = energy_pattern.findall(block)[0]
         energy = float(energy_str.lstrip())
         stress_str = stress_pattern.findall(block)[0]
-        virial_stress = np.array(list(map(formatify, stress_str.split()))).reshape(6, )/volume
-        virial_stress = virial_stress.tolist()
+        virial_stress = -np.array(list(map(formatify, stress_str.split()))).reshape(6, )/volume
     return energy, forces, virial_stress
