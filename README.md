@@ -4,7 +4,7 @@ ASE calculator for [moment tensor potential](https://gitlab.com/ashapeev/mlip-2)
 
 ## Install
 
-Need to install [ase](https://gitlab.com/ase/ase) and [mlip-2](https://gitlab.com/ashapeev/mlip-2). Current MTP version is under development at Skoltech and led by [Alex Shapeev]([http://www.shapeev.com](https://scholar.google.com/citations?user=NMyIbIwAAAAJ&hl=en)). Please contact MTP authors for the software and make citations as appropriate.
+Need to install [ase](https://gitlab.com/ase/ase) and [mlip-2](https://gitlab.com/ashapeev/mlip-2). MTP is developed by [Alex Shapeev]([http://www.shapeev.com](https://scholar.google.com/citations?user=NMyIbIwAAAAJ&hl=en)) and now fully open source.
 
 ## Usage
 
